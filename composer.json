@@ -1,0 +1,17 @@
+{
+    "name": "hexlet/code",
+    "description": "Brain Games PHP Project",
+    "type": "project",
+    "license": "Free",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aram"
+        }
+    ],
+    "require": {}
+}
