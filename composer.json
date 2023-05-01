@@ -2,7 +2,7 @@
     "name": "hexlet/code",
     "description": "Brain Games PHP Project",
     "type": "project",
-    "license": "Free",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Hexlet\\Code\\": "src/"
@@ -13,5 +13,8 @@
             "name": "Aram"
         }
     ],
-    "require": {}
+    "require": {},    
+    "bin": [
+        "bin/brain-games"
+      ]
 }
