@@ -1,0 +1,11 @@
+#!/usr/bin/env php
+<?php
+
+require_once __DIR__ . '/../vendor/autoload.php';
+require_once __DIR__ . '/../src/Games/Even.php';
+
+use function BrainGames\Hello\greeting;
+use function BrainGames\Games\Even\getEvenOdd;
+
+$userName = greeting();
+getEvenOdd($userName);
